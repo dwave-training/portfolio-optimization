@@ -16,11 +16,11 @@ To effectively optimize a portfolio of stocks, we would like to take into consid
 
    3. and variance between stocks.
 
-For condition 1, we use avarage return rates prepared in the CSV file, monthly_returns.csv, in order to build a model that will maximize our anticipated returns.
+For condition 1, we use average return rates prepared in the CSV file, `monthly_returns.csv`, in order to build a model that will maximize our anticipated returns.
 
-For condition 2, we use the last day's closing price from the file, lastday_closing_price.csv, to ensure that we are not exceeding the available budget.
+For condition 2, we use the last day's closing price from the file, `lastday_closing_price.csv`, to ensure that we are not exceeding the available budget.
 
-For condition 3, we can compute the covariance between pairs of stocks from the average returns information that is available. Covariance allows us to take into account how similar or different the behavior of the two stocks are. When the covariance is large, the two stocks behave in a similar manner - if one stock value drops then it's likely that the other will as well. We want to minimize the covariance minimize the risk of the portfolio. The covariance is calculated in the exercise program files and provided for use.
+For condition 3, we can compute the covariance between pairs of stocks from the average returns information that is available. Covariance allows us to take into account how similar or different the behavior of the two stocks are. When the covariance is large, the two stocks behave in a similar manner - if one stock value drops then it's likely that the other will as well. We want to minimize the covariance in order to minimize the risk of the portfolio. The covariance is calculated in the exercise program files and provided for use.
 
 ## Exercise 1
 
@@ -42,7 +42,7 @@ Open up the code file `excercise_1.py` file.
 
    4. In the `sample_cqm` function:
 
-      - Define the sampler to be used. Remember to import any necessary packages
+      - Define the sampler to be used. Remember to import any necessary packages.
 
       - Sample the CQM object and return the SampleSet
 
