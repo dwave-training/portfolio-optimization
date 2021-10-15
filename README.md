@@ -36,7 +36,7 @@ Open up the code file `excercise_1.py` file.
    
       - Initialize the CQM object called `cqm`, and import any necessary packages
 
-      - Add a constraint to the CQM to choose exactly two stocks
+      - Add a constraint to the CQM to choose exactly two stocks. Use the label 'choose k stocks'.
 
       - Set an objective function in the CQM to maximize returns
 
@@ -52,7 +52,7 @@ For exercise 2, we start with the CQM built in exercise 1, and add a constraint 
 
    1. Repeat steps 1 to 4 of exercise 1
 
-   2. In the `build_cqm` function, add a constraint to the CQM that the cost of the purchased stock should be at most our budget
+   2. In the `build_cqm` function, add a constraint to the CQM that the cost of the purchased stock should be at most our budget. Use the label 'budget_limitation'.
 
 ## Exercise 3
 
