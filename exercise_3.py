@@ -74,9 +74,11 @@ def define_cqm(stocks, num_stocks_to_buy, price, returns, budget, variance):
     
 
     # TODO: Add a constraint to choose exactly num_stocks_to_buy stocks
+    ## Important: Use the label 'choose k stocks'
         
 
     # TODO: Add a constraint that the cost of the purchased stocks is less than or equal to the budget
+    ## Important: Use the label 'budget_limitation'
 
 
     # TODO: Add an objective function maximize returns AND minimize variance
