@@ -64,5 +64,6 @@ For exercise 3, we start with the CQM built in exercise 2, and add an additional
 
       - Determine each objective separately then add them together
 
-      - Variance is computed as a quadratic term: `variance[i][j]*stock[i]*stock[j]`
-      - Note:As Markowitz's modern portofolio theory, typically variance-covariance Matrix sums up linear terms as well, however, for this particular problem we examine only effect between a pair of different stocks in this practice problem. 
+      - Variance is computed as a quadratic term: `variance[i][j]*stock[i]*stock[j]` for **distinct** pairs (i, j).
+      
+      - Note: In Markowitz's modern portfolio theory, typically variance-covariance Matrix sums up linear and quadratic terms with summations to start at 1 for both i and j. However, for this particular practice problem, **let's try to program only look at distinct pairs of sums**. This modification means we examine only the effect between a pair of different stocks in this practice problem.
