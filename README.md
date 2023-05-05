@@ -1,3 +1,7 @@
+[![Open in Leap IDE](
+  https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](
+  https://ide.dwavesys.io/#https://github.com/dwave-training/portfolio-optimization)
+
 # Portfolio Optimization with CQMs
 
 Using Constrained Quadratic Models, we can set an objective function and constraints for a given problem. Here, we will be working on making a program which gives an optimized selection of stocks. 
