@@ -62,7 +62,7 @@ def define_cqm(stocks, num_stocks_to_buy, returns):
     
 
     # TODO: Add a constraint to choose exactly num_stocks_to_buy stocks
-    ## Important: Use the label 'choose k stocks'
+    ## Important: Use the label 'choose k stocks', this label is case sensitive
 
 
     # TODO: Add an objective function maximize returns
