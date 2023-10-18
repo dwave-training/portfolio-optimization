@@ -17,10 +17,6 @@
 
 import utilities
 
-def get_token():
-
-    # TODO: Fill in your API token below if using the autograder
-    return 'YOUR-TOKEN-HERE'
 
 def define_variables(stockcodes):
     """Define the variables to be used for the CQM.
