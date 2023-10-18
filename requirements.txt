@@ -1,1 +1,2 @@
 dwave-ocean-sdk>=4.1
+pandas~=2.0
