@@ -32,11 +32,9 @@ In exercise 1, we build a basic portfolio of two stocks in order to maximize ret
 
 Open up the code file `excercise_1.py` file.
 
-   1. Add your API token in the `get_token` function
+   1. Define a binary variable named `s_stk` for each stock 'stk', and store the variables in a list called `stocks`, which will be returned by the `define_variables` function
 
-   2. Define a binary variable named `s_stk` for each stock 'stk', and store the variables in a list called `stocks`, which will be returned by the `define_variables` function
-
-   3. In the `build_cqm` function:
+   2. In the `build_cqm` function:
    
       - Initialize the CQM object called `cqm`, and import any necessary packages
 
@@ -44,7 +42,7 @@ Open up the code file `excercise_1.py` file.
 
       - Set an objective function in the CQM to maximize returns
 
-   4. In the `sample_cqm` function:
+   3. In the `sample_cqm` function:
 
       - Define the sampler to be used. Remember to import any necessary packages.
 
@@ -54,7 +52,7 @@ Open up the code file `excercise_1.py` file.
 
 For exercise 2, we start with the CQM built in exercise 1, and add a constraint for the available budget.
 
-   1. Repeat steps 1 to 4 of exercise 1
+   1. Repeat steps 1 to 3 of exercise 1
 
    2. In the `build_cqm` function, add a constraint to the CQM that the cost of the purchased stock should be at most our budget. Use the label 'budget_limitation'.
 
