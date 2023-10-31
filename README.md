@@ -1,4 +1,7 @@
-
+[![Open in GitHub Codespaces](
+  https://img.shields.io/badge/Open%20in%20GitHub%20Codespaces-333?logo=github)](
+  https://codespaces.new/dwave-training/portfolio-optimization?quickstart=1)
+  
 # Portfolio Optimization with CQMs
 
 Using Constrained Quadratic Models, we can set an objective function and constraints for a given problem. Here, we will be working on making a program which gives an optimized selection of stocks. 
