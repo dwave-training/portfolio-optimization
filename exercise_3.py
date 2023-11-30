@@ -78,7 +78,7 @@ def define_cqm(stocks, num_stocks_to_buy, price, returns, budget, variance):
 
     # TODO: Add an objective function maximize returns AND minimize variance
     ## Hint: Determine each objective separately then add them together
-    ## Hint: Variance is computed as a quadratic term: variance[i][j]*stock[i]*stock[j]
+    ## Hint: Variance is computed as a quadratic term: variance[i][j]*stocks[i]*stocks[j]
 
 
     return cqm
