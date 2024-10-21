@@ -30,7 +30,7 @@ For condition 3, we can compute the covariance between pairs of stocks from the 
 
 In exercise 1, we build a basic portfolio of two stocks in order to maximize returns.
 
-Open up the code file `excercise_1.py` file.
+Open up the code file `exercise_1.py` file.
 
    1. Define a binary variable named `s_stk` for each stock 'stk', and store the variables in a list called `stocks`, which will be returned by the `define_variables` function
 
