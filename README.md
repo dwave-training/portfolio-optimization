@@ -34,7 +34,7 @@ Open up the code file `exercise_1.py` file.
 
    1. Define a binary variable named `s_stk` for each stock 'stk', and store the variables in a list called `stocks`, which will be returned by the `define_variables` function
 
-   2. In the `build_cqm` function:
+   2. In the `define_cqm` function:
    
       - Initialize the CQM object called `cqm`, and import any necessary packages
 
@@ -54,7 +54,7 @@ For exercise 2, we start with the CQM built in exercise 1, and add a constraint 
 
    1. Repeat steps 1 to 3 of exercise 1
 
-   2. In the `build_cqm` function, add a constraint to the CQM that the cost of the purchased stock should be at most our budget. Use the label 'budget_limitation'.
+   2. In the `define_cqm` function, add a constraint to the CQM that the cost of the purchased stock should be at most our budget. Use the label 'budget_limitation'.
 
 ## Exercise 3
 
@@ -62,7 +62,7 @@ For exercise 3, we start with the CQM built in exercise 2, and add an additional
 
    1. Repeat steps 1 to 2 of exercise 2
 
-   2. In the `build_cqm` function, add "minimize variance" to the objective. Some hints:
+   2. In the `define_cqm` function, add "minimize variance" to the objective. Some hints:
 
       - Determine each objective separately then add them together
 
